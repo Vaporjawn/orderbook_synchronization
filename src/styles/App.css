@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer {
+  color: #888;
+}
+
+.orderbook-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.orderbook-container table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.orderbook-container th,
+.table-cells {
+  border: 1px solid grey;
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 20px;
+}
+
+.orderbook-container th:nth-child(even) {
+  width: 500px;
+}
+.orderbook-container td:nth-child(odd) {
+  width: 500px;
+}
+
+.orderbook-container th {
+  background-color: black;
+}
+
+.orderbook-container tr:nth-child(even) {
+  color: black;
+  background-color: black;
+}
+
+.orderbook-container tr:nth-child(odd) {
+  color: black;
+  background-color: black;
+}
+
+.orderbook-container tr:hover {
+  background-color: #ddd;
+}
+
+.orderbook {
+  list-style: none;
+  padding: 0;
+}
+
+.orderbook-container td:nth-child(1),
+.orderbook-container td:nth-child(2) {
+  /* color: black;
+  background-color: #ffcccc; Light red background for asks */
+}
+
+.orderbook-container .bids {
+  /* color: black;
+  background-color: #ccffcc; Light green background for bids */
+}
+
+.orderbook li {
+  padding: 5px;
+  margin-bottom: 5px;
+}
