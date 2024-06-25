@@ -3,6 +3,9 @@
 
 https://orderbook-synchronization.vercel.app/
 
+<img width="1271" alt="image" src="https://github.com/Vaporjawn/orderbook_synchronization/assets/15694665/992a26b5-cf77-4d9d-8441-b6cde4cbe1b2">
+
+
 This project is a React application with TypeScript, utilizing Vite for an optimized development experience. It focuses on synchronizing order book data, showcasing real-time bid and ask updates.
 
 ## Summary

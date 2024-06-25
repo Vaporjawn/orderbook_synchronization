@@ -16,8 +16,8 @@ const TableHeader = (args: { label: string }) => {
       </caption>
       <thead>
         <tr style={{ color: 'white' }}>
-          <th>Size</th>
-          <th>Price</th>
+          {label === 'Bids' ? <th>Price</th> : <th>Size</th>}
+          {label === 'Asks' ? <th>Price</th> : <th>Size</th>}
         </tr>
       </thead>
     </>
